@@ -2,15 +2,15 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./index.css";
-import image from "../public/1736617817873 (1).jpg";
+import image from "../public/Farhan.jpg";
 
 function App() {
-  const name = "Rizwan Ullah";
+  const name = "Farhan Ullah";
   const profession = "Frontend Developer";
   const experience = 1;
   const skills = ["HTML", "CSS", "JavaScript", "React"];
   let profile = [
-    { Name: "Rizwan", Profission: "Developer", Qulification: "AD" },
+    { Name: "Farhan", Profission: "Developer", Qulification: "AD" },
     { Name: "Irshad", Profission: "Graphic designer", Qulification: "BS" },
     { Name: "Asad", Profission: "Socail Madia manager", Qulification: "FSC" },
   ];
@@ -20,7 +20,7 @@ function App() {
       <h2>Create Profile Layout</h2>
       <div className="profile-card" style={{ padding: "15px" }}>
         <img src={image} alt="" />
-        <h2>Name: Rizwan Ullah</h2>
+        <h2>Name: Farhan Ullah</h2>
         <p>
           <span>Bio:</span> Mern Stack developer at SMIT Peshawar{" "}
         </p>
